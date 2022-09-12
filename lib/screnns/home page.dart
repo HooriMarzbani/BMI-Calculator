@@ -93,7 +93,7 @@ class _HomePageState extends State<HomePage> {
             height: 50.0,
           ),
           Text(
-            _bmiResult.toString(),
+            _bmiResult.toStringAsFixed(2),
             style: const TextStyle(color: Colors.yellow, fontSize: 40.0),
           ),
           const SizedBox(
